@@ -1,0 +1,21 @@
+{
+  "name": "estock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.8",
+    "@types/nodemon": "^1.19.0",
+    "@types/ws": "^7.4.0",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^2.0.2",
+    "nodemon": "^2.0.7",
+    "ws": "^7.4.2"
+  }
+}
