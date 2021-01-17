@@ -1,0 +1,6 @@
+version: '2'
+services:
+  estock-app:
+    build: .
+    ports:
+      - "8484:8484"
