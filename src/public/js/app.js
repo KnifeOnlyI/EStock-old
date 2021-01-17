@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:8484')
+const socket = new WebSocket(`ws://${document.location.hostname}:8484`)
 
 let data = [];
 let labels = [];
