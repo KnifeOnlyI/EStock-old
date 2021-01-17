@@ -37,7 +37,7 @@ socket.onmessage = (event) => {
     btnSell.disabled = false;
   }
 
-  if (data.length < 5) {
+  if (data.length < 50) {
     lastValue = parseFloat(event.data).toFixed(2);
 
     if (data.length > 1) {
